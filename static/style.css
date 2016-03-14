@@ -1,0 +1,104 @@
+body {
+  background: #252839;
+  color: #677077;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font: 72px 'Pacifico', Arial, sans-serif;
+  margin: 50px 0;
+  text-align: center;
+}
+
+input {
+  background: #252839;
+  border: none;
+  border-bottom: 1px solid #eceff1;
+  font-size: 24px;
+  height: 50px;
+  padding-bottom: 15px;
+}
+input:focus {
+  outline: 0;
+}
+
+.input-buttons {
+  height: 50px;
+  border-bottom: 1px solid #eceff1;
+  padding: 0;
+}
+.input-buttons i {
+  padding: 0 12px;
+  color: #eceff1;
+  float: right;
+}
+
+  .input-buttons .fa-plus:hover {
+    color: #69f0ae;
+  }
+
+.error {
+  color: #ff5252;
+  display: none;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+.error .fa-times {
+  color: #eceff1;
+  padding: 5px 15px;
+  float: right;
+}
+.error .fa-times:hover {
+  color: #fafafa;
+}
+.error p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.todo-list {
+  padding: 0;
+  margin: 20px 0 50px;
+}
+
+.todo-list .todo {
+  background: #eceff1;
+  border-bottom: 1px dotted #455a64;
+  color: #455a64;
+  font-size: 20px;
+  list-style: none;
+  padding: 20px 130px 20px 15px;
+  position: relative;
+  white-space: normal;
+}
+
+span {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+span a {
+  color: #455a64;
+}
+span i {
+  padding: 10px 15px;
+}
+
+span .fa-check {
+  border-right: 1px solid #455a64;
+}
+span .fa-check:hover {
+  color: #69f0ae;
+}
+span .fa-trash-o:hover {
+  color: #ff5252;
+}
+
+.complete {
+  color: #90a4ae;
+  text-decoration: line-through;
+}
+.complete .check {
+  color: #69f0ae;
+}
