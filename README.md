@@ -1,4 +1,4 @@
 # todo app
 build using hapi module in javascript.
 
-live version - skitodo.herokuapp.com
+[Live version](https://skitodo.herokuapp.com)
